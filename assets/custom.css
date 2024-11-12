@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Fustat';
+    src: url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Bold.woff2?v=1728889851') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Bold.woff?v=1728889850') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fustat';
+    src: url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-SemiBold.woff2?v=1728889850') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-SemiBold.woff?v=1728889850') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fustat';
+    src: url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Medium.woff2?v=1728889850') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Medium.woff?v=1728889850') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fustat';
+    src: url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Regular.woff2?v=1728889852') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0886/0975/1331/files/Fustat-Regular.woff?v=1728889850') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,54 @@
+.shopify-section--multi-column .section-stack .subheading{
+  color:#101F13;
+  font-family: Fustat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: -0.4px;
+  margin-bottom:40px;
+}
+.shopify-section--multi-column .section-stack h2{
+font-family: Fustat;
+font-size: 40px;
+color:#101F13;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 48px */
+letter-spacing: -0.8px;
+text-transform:capitalize;
+  margin-top:0; 
+}
+.shopify-section--multi-column .section-stack{ gap:40px;}
+.shopify-section--multi-column .section-stack p{ margin-top:10px; }
+.shopify-section--multi-column .section-stack p{ font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+color:#000;                                                
+font-weight: 400;
+line-height: 160%; /* 25.6px */  max-width:620px; }
+
+.shopify-section--multi-column .section-stack .multi-column__item p.h4{ font-family: Fustat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+color:#101F13;
+line-height: 120%; /* 28.8px */
+letter-spacing: -0.48px; }
+
+.shopify-section--multi-column .section-stack .multi-column__item .prose p{
+  font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color:#101F13; 
+line-height: 160%; /* 25.6px */
+}
+.shopify-section--multi-column .multi-column.scroll-area{ gap:40px;}
+@media screen and (min-width:768px){
+.shopify-section--multi-column .section.section-blends.section-full{ padding-top:120px; padding-bottom:120px; } }
+@media screen and (max-width:767px){
+  .shopify-section--multi-column .multi-column.scroll-area{ gap:10px;}
+  .shopify-section--multi-column{ overflow:hidden; }
+ .shopify-section--multi-column .section.section-blends.section-full{ padding-left:20px; padding-right:20px; }
+}

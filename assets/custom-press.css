@@ -1,0 +1,40 @@
+.shopify-section--press .press :is(.blockquote,.prose blockquote):before { display:none; }
+.shopify-section--press .press .rating__stars svg{ width:32px; height:32px;}
+.shopify-section--press blockquote.blockquote.h3{ margin-top:20px;}
+.shopify-section--press  .press{ gap:40px;}
+@media screen and (min-width:768px){
+   .shopify-section--press .section.section-blends.section-full{ padding-top:120px; padding-bottom:120px; }
+ .shopify-section--press blockquote.blockquote.h3{
+  text-align: center;
+font-family: Fustat;
+color:#101F13;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+letter-spacing: -0.64px;
+} 
+}
+@media screen and (min-width:568px) and (max-width:699px){
+.shopify-section--press blockquote.blockquote.h3{ max-width:450px;} }
+@media screen and (max-width:567px){
+.shopify-section--press blockquote.blockquote.h3{ max-width:350px;} }
+@media screen and (max-width:767px){
+  .shopify-section--press { overflow:hidden; }
+  .shopify-section--press .section.section-blends.section-full{ padding-top:60px; padding-bottom:60px;  padding-left:20px; padding-right:20px; }
+ .shopify-section--press blockquote.blockquote.h3{
+color: #101F13;
+text-align: center;
+font-family: Fustat;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 33.6px */
+letter-spacing: -0.56px;
+} 
+}
+.shopify-section--press .animated-arrow:not(:lang(ae),.shopify-section--press :lang(ar),.shopify-section--press :lang(arc),.shopify-section--press :lang(bcc),.shopify-section--press :lang(bqi),.shopify-section--press :lang(ckb),.shopify-section--press :lang(dv),.shopify-section--press :lang(fa),.shopify-section--press :lang(glk),.shopify-section--press :lang(he),.shopify-section--press :lang(ku),.shopify-section--press :lang(mzn),.shopify-section--press :lang(nqo),.shopify-section--press :lang(pnb),.shopify-section--press :lang(ps),.shopify-section--press :lang(sd),.shopify-section--press :lang(ug),.shopify-section--press :lang(ur),.shopify-section--press :lang(yi)):before{ left:-3px;}
+.shopify-section--press .animated-arrow:before{ width:12px; height:12px; }
+.shopify-section--press .press .ring{ box-shadow:none;}
+.shopify-section--press .press  .page-dots{ gap:20px;}
+.shopify-section--press .press .page-dots>*{ width:8px; height:8px;}

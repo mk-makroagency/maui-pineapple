@@ -1,0 +1,381 @@
+.article-banner {
+    max-width: 1280px;
+}
+.article-banner__image img {
+    object-fit: cover;
+    max-width: 1280px;
+    max-height: 720px;
+}
+.article a.badge {
+    background: #d49600;
+    padding: 5px 10px;
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 0;
+}
+.article h1 {
+    font-family: Fustat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101F13;
+}
+.article__meta p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+    color: #707971;
+}
+.article__meta svg {
+    width: 24px;
+    height: 24px;
+}
+
+.article-content .prose h1 {
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #101F13;
+}
+.article-content .prose h2 {
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #101F13;
+}
+.article-content .prose h3 {
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
+      color: #101F13;
+}
+.article-content .prose h4 {
+    font-family: Fustat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+      color: #101F13;
+}
+.article-content .prose h6,
+.article-content .prose h5 {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+      color: #101F13;
+}
+.article-content .prose > p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #101F13;
+}
+.article blockquote p {
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101F13;
+}
+.article-content p img {
+    max-width: 840px;
+    max-height: 520px;
+    width: 100%;
+    height: 100%;
+  margin: 0 !important;
+  object-fit:cover;
+}
+.article blockquote:before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: unset;
+    -webkit-mask-image:unset;
+    mask-image: unset;
+    -webkit-mask-size:unset;
+    mask-size: unset;
+    position: absolute;
+    top: -50px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.9707 2.6311V8.97624C11.6952 9.40642 9.91738 10.4102 8.63738 11.9875C7.35738 13.4931 6.71738 15.2497 6.71738 17.2572C6.71738 18.476 6.89516 19.6232 7.25072 20.6986L3.30405 22.9571C3.23294 22.5269 3.16183 22.1325 3.09072 21.7741C3.01961 21.3439 2.98405 20.9137 2.98405 20.4835C2.98405 19.193 3.30405 18.2251 3.94405 17.5798C4.58405 16.9346 5.29516 16.5402 6.07738 16.3968C6.8596 16.1817 7.42849 16.0742 7.78405 16.0742C9.63294 16.0742 11.1618 16.6836 12.3707 17.9025C13.6507 19.1213 14.2907 20.6628 14.2907 22.5269C14.2907 24.3193 13.6507 25.8608 12.3707 27.1513C11.1618 28.4418 9.63294 29.0871 7.78405 29.0871C6.21961 29.0871 4.86849 28.6211 3.73072 27.689C2.66405 26.6853 1.81072 25.4306 1.17072 23.925C0.601827 22.3476 0.317383 20.6986 0.317383 18.9779C0.317383 17.4723 0.530716 15.8591 0.957383 14.1384C1.45516 12.346 2.23738 10.6611 3.30405 9.08379C4.37072 7.43477 5.75738 6.03669 7.46405 4.88954C9.24183 3.6707 11.4107 2.91789 13.9707 2.6311ZM30.7174 2.6311V8.97624C28.4418 9.40642 26.664 10.4102 25.3841 11.9875C24.104 13.4931 23.4641 15.2497 23.4641 17.2572C23.4641 18.476 23.6418 19.6232 23.9974 20.6986L20.0507 22.9571C19.9796 22.5269 19.9085 22.1325 19.8374 21.7741C19.7663 21.3439 19.7307 20.9137 19.7307 20.4835C19.7307 19.193 20.0507 18.2251 20.6907 17.5798C21.3307 16.9346 22.0418 16.5402 22.824 16.3968C23.6063 16.1817 24.1752 16.0742 24.5307 16.0742C26.3796 16.0742 27.9085 16.6836 29.1174 17.9025C30.3974 19.1213 31.0374 20.6628 31.0374 22.5269C31.0374 24.3193 30.3974 25.8608 29.1174 27.1513C27.9085 28.4418 26.3796 29.0871 24.5307 29.0871C22.9663 29.0871 21.6152 28.6211 20.4774 27.689C19.4107 26.6853 18.5574 25.4306 17.9174 23.925C17.3485 22.3476 17.0641 20.6986 17.0641 18.9779C17.0641 17.4723 17.2774 15.8591 17.7041 14.1384C18.2018 12.346 18.984 10.6611 20.0507 9.08379C21.1174 7.43477 22.504 6.03669 24.2107 4.88954C25.9885 3.6707 28.1574 2.91789 30.7174 2.6311Z' fill='%23E7E8E7'/%3E%3C/svg%3E%0A");
+}
+.article-content ul li,
+.article-content ol li {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #101F13;
+}
+.article-content ul li span, .article-content ol li span {
+    display: inline !important;
+}
+.article-content {
+    max-width: 840px;
+    border-bottom: 1px solid #E7E8E7;
+    padding: 60px 0;
+}
+.article .article-navigation {
+   gap: 0;
+}
+.article .prose {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.article-navigation h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -.02em;
+    color: #101f13;
+    text-transform: capitalize;
+}
+div#blog-post-comments .h4 {
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+     color: #101F13;
+}
+div#blog-post-comments .text-subdued p a,
+div#blog-post-comments .text-subdued p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #707971;
+    letter-spacing: 0;
+}
+div#blog-post-comments {
+    max-width: 840px;
+    background: #FAFBFA;
+}
+div#blog-post-comments .border{
+   border: 0;
+}
+div#blog-post-comments button.button.button--xl {
+    width: 112px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #2D5035;
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+}
+.article-comments__form {
+    padding: 40px;
+}
+.blog__twi .text-with-icons__list .text-with-icons__item {
+    text-align: left;
+      justify-items: unset;
+}
+.blog__twi .text-with-icons__text-wrapper .h6 {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #101F13;
+}
+.blog__twi .text-with-icons__text-wrapper p {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #404C42;
+}
+.blog__twi .text-with-icons__list .text-with-icons__item .image-icon {
+    width: 32px;
+    height: 32px;
+}
+div#blog-post-comments input, div#blog-post-comments textarea {
+    padding: 10px 15px 10px 15px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #9FA5A1;
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #CFD2D0;
+}
+div#blog-post-comments input{
+    height: 50px;
+}
+div#blog-post-comments textarea{
+    height: 150px;
+}
+div#blog-post-comments input:placeholder,
+div#blog-post-comments textarea:placeholder {
+    color: #CFD2D0;
+  text-transform: capitalize;
+  
+}
+.article .share-buttons.gap-3 {
+    justify-content: center;
+}
+.article ul.h-stack.sm-max\:hidden.gap-3 {
+    gap: 5px;
+}
+/* .article .share-buttons.gap-3 li svg,
+.article .article-content>.share-buttons .share-buttons__item {
+    width: 20px;
+    height: 20px;
+} */
+.article>.container {
+    margin-block-end: unset;
+    padding: 0px 0 80px 0;
+}
+.section-stack.blog__twi {
+    margin-top: 120px;
+}
+@media screen and (max-width: 768px){
+  .article-banner__content.text-custom {
+    padding: 40px 20px;
+}
+  .article h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.article .container {
+        margin: 0 20px;
+    }
+    .article-content {
+        padding: 60px 0px;
+        border-bottom: 1px solid #E7E8E7;
+    }
+    div#blog-post-comments {
+        /* margin: 20px 20px; */
+    }
+  .article-comments__form {
+    padding: 40px 20px;
+}
+.article span.bold.sm-max\:hidden {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #101F13;
+}
+.article-content .prose h1 {
+     font-size: 32px;
+    line-height: 38.4px;
+}
+.article-content .prose h2 {
+    font-size: 28px;
+    line-height: 33.6px;
+}
+.article-content .prose h3 {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.article-content .prose h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.article-content .prose h6,
+.article-content .prose h5 {
+    font-size: 16px;
+    line-height: 19.2px;
+}
+  .article .prose {
+    gap: 20px;
+}
+.article .sm-max\:hidden {
+    display: flex;
+}
+.article button.button.button--subdued{
+    display: none;
+}
+  .section-stack.blog__twi {
+    margin: 60px 0;
+}
+.article .article-navigation {
+    gap: 0;
+}
+  div#blog-post-comments .h4 {
+    font-size: 28px;
+    line-height: 33.6px;
+}
+  .article__meta svg {
+    width: 20px;
+    height: 20px;
+}
+  .article__meta p {
+    font-size: 14px;
+    line-height: 22.4px;
+}
+  .article blockquote p {
+    font-size: 28px;
+    line-height: 33.6px;
+}
+}
+@media screen and (max-width: 480px){
+.article-content p img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+  .article-banner__image img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 390px;
+}
+  .justify-self-start {
+    justify-self: unset;
+}
+  div#blog-post-comments button.button.button--xl {
+    width: 100%;
+    max-width: 100%;
+}
+}

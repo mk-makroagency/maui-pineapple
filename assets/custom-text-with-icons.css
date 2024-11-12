@@ -1,0 +1,66 @@
+.custom-text-wih-icons .text-with-icons__text-wrapper .prose .h5{
+color: #101F13;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+letter-spacing: -0.32px;
+}
+.custom-text-wih-icons .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+.custom-text-wih-icons .text-with-icons__text-wrapper .prose :is(.h5,.h6,h5,h6)+ p{
+color: #404C42;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+}
+.custom-text-wih-icons .text-with-icons__item .icon {
+width: 40px;
+height: 40px;
+}
+.custom-text-wih-icons .text-with-icons__item {gap: 20px;}
+.custom-text-wih-icons .text-with-icons__text-wrapper .prose :is(.h5,.h6,h5,h6)+* {
+  margin-block-start: 10px;
+}
+.custom-text-wih-icons  :not(.is-scrollable) .text-with-icons__list {
+  gap: 40px;
+}
+.custom-text-wih-icons  .page-dots {
+  gap: 20px;
+}
+
+
+@media only screen and (max-width: 999px) {
+  #shopify-section-template--23623833977123__text_with_icons_NRcNAh.custom-text-wih-icons .text-with-icons__item {
+    --text-with-icons-justify: start !important;
+    --text-with-icons-text-align: left !important;
+  }
+  #shopify-section-template--23623833977123__text_with_icons_NRcNAh.custom-text-wih-icons .text-with-icons__item .text-with-icons__text-wrapper {
+    text-align: left
+  }
+  #shopify-section-template--23623833977123__text_with_icons_NRcNAh.custom-text-wih-icons .page-dots {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .custom-text-wih-icons .section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .custom-text-wih-icons :not(.is-scrollable) .text-with-icons__list {
+    margin: 0 0 0 0;
+  }
+  .custom-text-wih-icons .text-with-icons__item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 699px) {
+  .custom-text-wih-icons .text-with-icons__item { text-align: left; }
+  .custom-text-wih-icons .text-with-icons__item>div:not([class]) { margin-right: auto; }
+}
