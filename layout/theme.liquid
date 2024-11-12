@@ -48,18 +48,17 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {% endcapture %}
     {{ head_minfy_cap | strip_newlines }}
     {%- render 'js-variables' -%}
-
     <script>
       if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
         const importMapPolyfill = document.createElement('script');
         importMapPolyfill.async = true;
         importMapPolyfill.src = "{{ 'es-module-shims.min.js' | asset_url }}";
-
         document.head.appendChild(importMapPolyfill);
       }
     </script>
 
     <script type="importmap">
+      {% comment %} mk {% endcomment %}
       {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
       {
         "imports": {
