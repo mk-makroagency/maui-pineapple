@@ -1,0 +1,68 @@
+.shopify-section--main-collection .collection {  
+  row-gap: var(--spacing-5);  
+  column-gap: var(--spacing-10);  
+  margin-top: var(--spacing-10);
+  margin-bottom: var(--spacing-5);
+}
+.collection__top-bar>.text-with-icon {
+  font-size: var(--text-h6);
+  font-weight: var(--heading-font-weight);
+  font-style: var(--heading-font-style);
+  letter-spacing: var(--heading-letter-spacing);
+  color: rgb(var(--header-text));
+}
+
+
+.sort-by-facet {
+  color: rgb(var(--header-text));
+  --spacing-1: 5px;
+  letter-spacing: normal;
+}
+.sort-by-facet>.text-with-icon {
+  gap: 10px;
+}
+.sort-by-facet>.text-with-icon .circle-chevron {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+.sort-by-facet>.text-with-icon svg {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -0.1rem;
+}
+
+
+.collection__facets .accordion {
+  border-color: rgb(231 232 231);
+}
+.collection__facets .accordion__toggle {
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+  padding-inline-end: var(--accordion-spacing);
+}
+.collection__facets .accordion__toggle svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+.collection__facets .switch:checked {
+  --accent: var(--button-background-primary););
+}
+
+.md\:product_count {
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section--main-collection .collection {
+    margin-top: var(--spacing-20);    
+    margin-bottom: calc(var(--spacing-28, 120px) + var(--spacing-2, 0));
+  }
+}
+@media screen and (min-width: 1400px) {
+  .collection {
+    --collection-sidebar-width: 290px;
+  }
+}

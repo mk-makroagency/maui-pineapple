@@ -1,0 +1,14 @@
+.custom-reveal-image .revealed-image__content-inner .h0 {
+  font-family: Fustat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  letter-spacing: -0.8px;
+}
+@media only screen and (max-width: 767.98px){
+  .custom-reveal-image  .revealed-image__wrapper .revealed-image__content,
+.custom-reveal-image  .revealed-image__wrapper>.revealed-image__content--inside {
+  padding: 0 0;
+}
+}

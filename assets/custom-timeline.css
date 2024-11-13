@@ -1,0 +1,91 @@
+{{ 'custom-timeline.css' | asset_url | stylesheet_tag }}
+
+
+.shopify-section--timeline .prose .subheading{ font-family: Fustat;
+font-size: 20px;
+color:#101F13;                                             
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 24px */
+letter-spacing: -0.4px;  }
+
+.shopify-section--timeline .prose p.h2{
+color: #101F13;
+font-family: Fustat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 48px */
+letter-spacing: -0.8px;
+margin-top:40px;   
+}
+.shopify-section--timeline .timeline__slide>.prose{ max-width:100%;}
+.shopify-section--timeline .timeline__slide>.prose p:last-child{ margin-top:10px; color: #000;
+font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */  }
+.shopify-section--timeline  .timeline{ gap:55px;}
+.shopify-section--timeline  .timeline__slide>.prose{ padding-right:0; }
+@media screen and (min-width:1000px){
+.timeline__slide>.timeline__image-wrapper{ padding-right:0; max-width:510px; } }
+@media screen and (min-width:1200px){
+  .shopify-section--timeline .timeline__slide{         gap: 110px;
+        grid-template-columns: auto 1fr;}
+}
+@media screen and (max-width:767px){
+  
+  .shopify-section--timeline .timeline{ gap:40px; }
+  .shopify-section--timeline span.timeline__nav-label{ color: var(--Black, #101F13);
+font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+letter-spacing: -0.32px; }
+  .shopify-section--timeline .prose p.h2{ color:#101F13; margin-top:25px; 
+font-family: Fustat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: -0.64px; }
+  .shopify-section--timeline .timeline__slide>.prose{ text-align:left; }
+ .shopify-section--timeline .timeline__slide{ gap:40px;}
+ .shopify-section--timeline  .section.section-blends.section-full{ padding:60px 20px; }
+}
+@media screen and (min-width:1000px) and (max-width:1199px){
+ .shopify-section--timeline  .timeline__slide{         gap: 40px;
+        grid-template-columns: auto 1fr;}
+}
+ .shopify-section--timeline .timeline__buttons{ gap:20px;}
+ .shopify-section--timeline .circle-button{ 
+display: flex;
+width: 50px;
+height: 50px;
+justify-content: center;
+align-items: center; 
+border-radius: 5px;
+background:#2D5035;                                          
+ }
+ .shopify-section--timeline span.timeline__nav-label{   opacity:1; }
+ .shopify-section--timeline .animated-arrow:after{  border-color:#fff; background-color:#fff;  }
+ .shopify-section--timeline .animated-arrow:before{ width:10px; height:10px; border-color:#fff; }
+@media screen and (max-width:767px){
+.shopify-section--timeline{ overflow:hidden;} }
+@media screen and (min-width:768px){
+  .shopify-section--timeline .section.section-blends.section-full{ padding-top:120px; padding-bottom:120px; }
+ .shopify-section--timeline span.timeline__nav-label{
+    color:#101F13;
+   
+    font-family: Fustat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.4px; } }
+.shopify-section--timeline .timeline__nav-item:before{ border-width:1px; border-color:#2D5035;  }
+.shopify-section--timeline .timeline__nav-bar{ height:1.2px;     background-color: #2D5035; }
+.shopify-section--timeline .timeline__nav-item[aria-current=true]:before{     border-color: #2D5035;
+    background-color: #2D5035; }

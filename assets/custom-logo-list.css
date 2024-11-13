@@ -1,0 +1,27 @@
+
+
+.shopify-section--logo-list .section-stack h2{
+font-family: Fustat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: -0.64px;
+}
+@media screen and (min-width:768px){
+ .shopify-section--logo-list .section.section-blends.section-full{ padding-top:120px; padding-bottom:120px; } }
+@media screen and (max-width:767px){
+ .shopify-section--logo-list  .logo-list{ column-gap:10px; row-gap:20px; }
+  .shopify-section--logo-list .logo-list__item{ padding:15px 32px;}
+   .shopify-section--logo-list .section-stack h2{ text-align:center; }
+   .shopify-section--logo-list .section.section-blends.section-full{ padding-left:20px; padding-right:20px; padding-top:60px; padding-bottom:60px;  }
+}
+.shopify-section--logo-list .section-stack{ gap:40px; }
+ .shopify-section--logo-list .logo-list .logo-list__item.bg-secondary{ background:transparent; }
+@media screen and (min-width:1200px){
+ .shopify-section--logo-list .logo-list{ gap:40px;}
+.shopify-section--logo-list .logo-list__item{ padding:15px 59px; } }
+
+@media screen and (min-width:768px) and (max-width:1199px){
+ .shopify-section--logo-list .logo-list{ gap:30px;}
+.shopify-section--logo-list .logo-list__item{ padding:15px 49px; } }

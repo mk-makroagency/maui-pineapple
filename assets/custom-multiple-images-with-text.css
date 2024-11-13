@@ -1,0 +1,86 @@
+.custom-multiple-img-with-text .multiple-images-with-text  .multiple-images-with-text__image-list[layout="stacked"]>img{
+  max-width: 100%;
+  transform: rotate(0deg) !important;
+  margin-left: 0;
+  filter: none;
+}
+.custom-multiple-img-with-text .section {
+   padding-top: 120px;
+  padding-bottom: 120px;
+}
+.custom-multiple-img-with-text .multiple-images-with-text {
+  gap: 40px;
+  max-width: 100%;
+}
+.custom-multiple-img-with-text .multiple-images-with-text__image-list[layout=stacked] {
+   max-width: 510px;
+}
+.custom-multiple-img-with-text .multiple-images-with-text__content-with-nav {
+  padding-left: 70px;
+  max-width: 770px;
+}
+.custom-multiple-img-with-text .multiple-images-with-text__content-list .h1{
+  color: var(--Black, #101F13);
+  font-family: Fustat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  letter-spacing: -0.8px;
+}
+.custom-multiple-img-with-text .multiple-images-with-text__content-list .prose :is(.h0,.h1,.h2,h1,h2)+* {
+  margin-top: 1.5rem;
+  color: #000;
+  font-family: Fustat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.custom-multiple-img-with-text .multiple-images-with-text__image-list[layout=stacked] + .multiple-images-with-text__content-with-nav {
+  row-gap: 40px;
+}
+.custom-multiple-img-with-text .circle-button {
+  border-radius: 5px;
+  background: #2D5035;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding-left: 2px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.custom-multiple-img-with-text .circle-button .animated-arrow:before{
+  width: 15px;
+  height: 15px;
+}
+.custom-multiple-img-with-text .prev-next-buttons {
+  gap: 20px;
+}
+  @media only screen and (min-width: 1000px){
+  .custom-multiple-img-with-text .multiple-images-with-text {
+    justify-content: space-between;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 999.98px) {
+  .custom-multiple-img-with-text .multiple-images-with-text__image-list[layout=stacked] {
+  max-width: 100%;
+  }
+  .custom-multiple-img-with-text .multiple-images-with-text__content-with-nav {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767.98px){
+  .custom-multiple-img-with-text .multiple-images-with-text__content-list .h1 {
+    font-size: 32px;
+    letter-spacing: -0.64px;
+  }
+  .custom-multiple-img-with-text .section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

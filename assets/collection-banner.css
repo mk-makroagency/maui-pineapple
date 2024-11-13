@@ -1,0 +1,13 @@
+.shopify-section--collection-banner .section { padding-block-start: 0; padding-block-end: 0; }
+.collection-banner img { min-height: 300px; }
+.collection-banner .collection-title { line-height: 1; }
+
+@media screen and (max-width: 699px) {
+  image-banner.collection-banner {
+    row-gap: var(--spacing-10);
+  }
+  .collection-banner img {
+    aspect-ratio: 1 / 1;
+    min-width: 100vw;
+  }
+}
